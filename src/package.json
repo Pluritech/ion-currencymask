@@ -1,0 +1,28 @@
+{
+  "name": "@pluritech/ion-currencymask",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pluritech/ion-currencymask"
+  },
+  "author": {
+    "name": "Lucas Correa",
+    "email": "lucasccorrea@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pluritech/ion-currencymask/issues"
+  },
+  "main": "ion-currencymask.umd.js",
+  "module": "ion-currencymask.js",
+  "jsnext:main": "ion-currencymask.js",
+  "typings": "ion-currencymask.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
