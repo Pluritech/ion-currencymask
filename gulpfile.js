@@ -172,7 +172,7 @@ gulp.task('copy:readme', function () {
 /**
  * 9. Copy ion-currencymask.gif from / to /dist
  */
-gulp.task('copy:readme', function () {
+gulp.task('copy:demogif', function () {
   return gulp.src([path.join(rootFolder, 'ion-currencymask.gif')])
     .pipe(gulp.dest(distFolder));
 });
@@ -203,6 +203,7 @@ gulp.task('compile', function () {
     'copy:build',
     'copy:manifest',
     'copy:readme',
+    'copy:demogif',
     'clean:build',
     'clean:tmp',
     function (err) {
