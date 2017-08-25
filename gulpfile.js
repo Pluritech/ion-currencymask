@@ -170,6 +170,15 @@ gulp.task('copy:readme', function () {
 });
 
 /**
+ * 9. Copy ion-currencymask.gif from / to /dist
+ */
+gulp.task('copy:readme', function () {
+  return gulp.src([path.join(rootFolder, 'ion-currencymask.gif')])
+    .pipe(gulp.dest(distFolder));
+});
+
+
+/**
  * 10. Delete /.tmp folder
  */
 gulp.task('clean:tmp', function () {
