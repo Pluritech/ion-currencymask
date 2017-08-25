@@ -94,6 +94,10 @@ export class HomePage {
 
 Feel free to make your pull request, chip in to suggestion or report issues.
 
+## Thanks
+We used the core code made by [Marlos Irapuan](https://github.com/marlosirapuan) inspired on http://jsbin.com/heqeduyi/1/edit?html,output and we maked improvement to separate into pieces of thousands. 
+More info see: [MaskMoney no Ionic 2](https://marlosirapuan.com/maskmoney-no-ionic-2/)
+
 ## License
 
 MIT © [Lucas Correa](mailto:lucasccorrea@gmail.com)
