@@ -1,6 +1,6 @@
 # Ionic CurrencyMask
 <p align="center">
-  <img src="./ion-currencymask">
+  <img src="./ion-currencymask.gif">
 </p>
 
 ## Installation
