@@ -65,8 +65,12 @@ export class IonCurrencyMaskComponent implements ControlValueAccessor {
     return this.typeLabel === type;
   }
 
+  public getAttrClearInput() {
+    return this.clearInput ? '' : null;
+  }
+
   public getAttrPlaceholder() {
-    return this.placeholder ? this.placeholder : null;
+    return this.placeholder ? this.placeholder : '';
   }
 
 }
