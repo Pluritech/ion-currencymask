@@ -1,6 +1,14 @@
 export class CurrencyMask {
     private n: any;
     private len: any;
+
+    public detectAmountReverse(v: any): string {
+        if (typeof(v) === 'number') {
+            return this.fixAmountReverse(v);
+        }
+        return v;
+     }
+
     public detectAmount(v): string {
         if (v) {
             this.n = v[v.length - 1];
@@ -11,6 +19,10 @@ export class CurrencyMask {
             v = this.fixAmount(v);
             return v;
         }
+    }
+
+    private fixAmountReverse(a: number) {
+        return a.toFixed(2).replace('.', ',');
     }
 
     private fixAmount(a: string): string {

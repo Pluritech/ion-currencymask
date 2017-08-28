@@ -1,6 +1,6 @@
 {
   "name": "@pluritech/ion-currencymask",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
