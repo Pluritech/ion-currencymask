@@ -34,8 +34,8 @@ export class IonCurrencyMaskComponent implements ControlValueAccessor {
   public registerOnTouched() {}
 
   public writeValue(obj: number) {
+    this.valueIonInput = this.currencyMask.detectAmountReverse(obj);
     if (obj) {
-      this.valueIonInput = this.currencyMask.detectAmountReverse(obj);
       this.keyUpEvent(null);
       this.value = obj;
     } else {
